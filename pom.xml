@@ -21,6 +21,10 @@
     <modules>
         <module>web-demo</module>
         <module>traffic-shaping-demo</module>
+
+        <module>service-api</module>
+        <module>dubbo-service-consumer-demo</module>
+        <module>dubbo-service-provider-demo</module>
     </modules>
 
     <build>

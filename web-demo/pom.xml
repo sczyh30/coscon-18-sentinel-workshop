@@ -19,12 +19,17 @@
         </dependency>
         <dependency>
             <groupId>com.alibaba.csp</groupId>
+            <artifactId>sentinel-transport-simple-http</artifactId>
+            <version>0.2.0</version>
+        </dependency>
+        <dependency>
+            <groupId>com.alibaba.csp</groupId>
             <artifactId>sentinel-web-servlet</artifactId>
             <version>0.2.0</version>
         </dependency>
         <dependency>
             <groupId>com.alibaba.csp</groupId>
-            <artifactId>sentinel-transport-simple-http</artifactId>
+            <artifactId>sentinel-annotation-aspectj</artifactId>
             <version>0.2.0</version>
         </dependency>
 

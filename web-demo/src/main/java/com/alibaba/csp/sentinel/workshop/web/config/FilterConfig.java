@@ -1,7 +1,5 @@
 package com.alibaba.csp.sentinel.workshop.web.config;
 
-import javax.servlet.Filter;
-
 import com.alibaba.csp.sentinel.adapter.servlet.CommonFilter;
 
 import org.springframework.boot.web.servlet.FilterRegistrationBean;
@@ -16,7 +14,7 @@ public class FilterConfig {
 
     @Bean
     public FilterRegistrationBean sentinelFilterRegistration() {
-        FilterRegistrationBean<Filter> registration = new FilterRegistrationBean<>();
+        FilterRegistrationBean registration = new FilterRegistrationBean();
         registration.setFilter(new CommonFilter());
         registration.addUrlPatterns("/*");
         registration.setName("sentinelFilter");

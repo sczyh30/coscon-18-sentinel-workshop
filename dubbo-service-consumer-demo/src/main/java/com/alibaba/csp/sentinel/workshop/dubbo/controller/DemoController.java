@@ -25,7 +25,7 @@ public class DemoController {
             return fooService.sayHello(name);
         } catch (SentinelRpcException e) {
             e.getCause().printStackTrace();
-            return "oops, blocked...";
+            return "oops, blocked by Sentinel...";
         } catch (Exception ex) {
             ex.printStackTrace();
             return "oops...";

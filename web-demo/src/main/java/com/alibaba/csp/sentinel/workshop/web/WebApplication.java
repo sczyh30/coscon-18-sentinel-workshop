@@ -4,6 +4,8 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
+ * Run with: {@code -Dcsp.sentinel.api.port=8723 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=web-demo}.
+ *
  * @author Eric Zhao
  */
 @SpringBootApplication

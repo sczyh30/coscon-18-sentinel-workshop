@@ -26,3 +26,15 @@ Workshop 共包含三个场景：
 - Web 服务端限流
 - Dubbo consumer / provider 的最佳实践
 - 流量整形（匀速器模式）
+
+## 应用启动参数
+
+- `project.name`：应用名称，在 Sentinel 控制台上显示的名称即为此应用名
+- `csp.sentinel.dashboard.server`：Sentinel 控制台的地址
+- `csp.sentinel.api.port`：Sentinel transport server 的端口，默认为 8719
+
+以下是一个示例：
+
+```bash
+-Dcsp.sentinel.api.port=8723 -Dcsp.sentinel.dashboard.server=localhost:8080 -Dproject.name=web-demo
+```
